@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Yegor</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content">
+        <div class="header-flex">
+          <div class="header-logo">
+            <div class="header-logo_text">
+              <div class="header-logo-img">
+                <img src="img/key.svg" alt="" />
+              </div>
+              <div class="header-text">Yegor Deyneko</div>
+            </div>
+          </div>
+          <div class="header-menu">
+            <nav class="header-navigation">
+              <ul>
+                <li><a href="#main-slide" class="active">Main</a></li>
+                <li><a href="#technologies-slide">Technologies</a></li>
+                <li><a href="#contact-slide">Contact</a></li>
+                <li><a href="#map-slide">Location</a></li>
+              </ul>
+            </nav>
+            <div class="header-burger">
+              <ion-icon name="menu-outline"></ion-icon>
+              <ul class="header-burger">
+                <li><a href="#main-slide" class="active">Main</a></li>
+                <li><a href="#technologies-slide">Technologies</a></li>
+                <li><a href="#contact-slide">Contact</a></li>
+                <li><a href="#map-slide">Location</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-slide" id="main-slide">
+        <div class="content">
+          <div class="main-slide-inside">
+            <div class="main-slide-left">
+              <div class="main-slide-title">
+                caring for <span>your car</span>
+              </div>
+              <div class="main-slide-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora consequatur eligendi iste non fugit. Eaque modi beatae
+                aspernatur animi iusto?
+              </div>
+              <div class="main-slide-btn">
+                <button><span>Make an appointment</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="technologies-slide" id="technologies-slide">
+        <div class="title">Our technologies</div>
+        <div class="content">
+          <div class="technolohies-card">
+            <div class="card-block _one">
+              <div class="card-block_main">
+                <span>Engine</span>
+                <div class="card-block_list">
+                  <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                  </ul>
+                </div>
+                <div class="card-block_button">
+                  <button><span>More...</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block _two">
+              <div class="card-block_main">
+                <span>car body</span>
+                <div class="card-block_list">
+                  <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                  </ul>
+                </div>
+                <div class="card-block_button">
+                  <button><span>More...</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block _three">
+              <div class="card-block_main">
+                <span>vehicle interior</span>
+                <div class="card-block_list">
+                  <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                  </ul>
+                </div>
+                <div class="card-block_button">
+                  <button><span>More...</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="technologies-bottom-text">
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+            dolore nesciunt, laborum repudiandae, repellendus architecto
+            voluptatem incidunt accusantium mollitia deserunt?
+          </div>
+        </div>
+      </div>
+      <div class="contact-slide" id="contact-slide">
+        <div class="content">
+          <div class="contact-left-img">
+            <img class="contact-img" src="img/auto-repair.png" alt="" />
+          </div>
+          <form action="script.php" method="POST" class="forma">
+            <span>book your car check</span>
+            <input
+              type="text"
+              class="contact-telephone"
+              name="contact-telephone"
+              placeholder="Phone"
+            />
+            <input
+              type="email"
+              class="contact-email"
+              name="contact-email"
+              placeholder="E-mail"
+            />
+            <input
+              type="date"
+              class="contact-date"
+              name="contact-date"
+              max="2022-01-01"
+              value="2022-01-01"
+            />
+            <input
+              placeholder="Choose your mark:"
+              list="auto-list"
+              id="myAuto"
+              class="contact-list"
+              name="myAuto"
+            />
+            <datalist id="auto-list">
+              <option value="Mazda"></option>
+              <option value="Bentley"></option>
+              <option value="Jaguar"></option>
+              <option value="Rolls-Royce"></option>
+              <option value="Aston Martin"></option>
+              <option value="McLaren"></option>
+
+              <option value="Tesla"></option>
+              <option value="Toyota"></option>
+              <option value="Volkswagen"></option>
+              <option value="Daimler"></option>
+              <option value="Ford Motor"></option>
+              <option value="Honda"></option>
+
+              <option value="Hyundai"></option>
+              <option value="Kia"></option>
+              <option value="Lada "></option>
+              <option value="Nissan"></option>
+              <option value="Chevrolet"></option>
+              <option value="Mercedes-Benz"></option>
+
+              <option value="Opel"></option>
+              <option value="Acura"></option>
+              <option value="Citroen "></option>
+              <option value="Volvo"></option>
+              <option value="Skoda"></option>
+              <option value="Renault"></option>
+            </datalist>
+
+            <input
+              type="submit"
+              onclick="myFunction1()"
+              class="content-submit"
+              value="Book"
+            />
+          </form>
+          <script>
+            function myFunction1() {
+              alert("Ваше сообщение было успешно отправлено!");
+            }
+          </script>
+        </div>
+        <div class="contact-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum itaque
+          temporibus ipsa accusantium commodi, hic rem nulla accusamus nemo
+          officiis.
+        </div>
+      </div>
+      <div class="map-slide" id="map-slide">
+        <div class="title">Our location</div>
+        <div class="content">
+          <div class="map-flex">
+            <div class="map-contact-div">
+              <ul>
+                <li><span class="name">New York, NY 10004, USA</span></li>
+                <li><span class="tel-1">+(380) 93-58-65-625</span></li>
+                <li><span class="tel-2">+(380) 86-44-02-132</span></li>
+                <li><span class="email">newsto@gmail.com</span></li>
+              </ul>
+            </div>
+            <div class="map-map-div">
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67909.10845581848!2d-74.01598981172178!3d40.69458412321003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2z0KHRgtC10LnRgtGM0Y4g0L7RhCDQm9C40LHQtdGA0YLQuA!5e1!3m2!1sru!2sua!4v1651829729824!5m2!1sru!2sua"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="top-croll"><img src="img/top-croll.svg" alt="" /></button>
+    </main>
+
+    <footer class="footer">
+      <div class="content">
+        <span>Copyright 2022 All rights reserved</span>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
