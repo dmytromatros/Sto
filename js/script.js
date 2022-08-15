@@ -29,16 +29,16 @@ function showDiv() {
       thisDiv[i].classList.add("div-active"); // добавляем класс для появления елемента
     }
   }
-  let contactImg = document.querySelector(".contact-img"); // получаем  елемент в переменную
-  if (contactImg.offsetTop - 450 < window.pageYOffset) {
-    // сравниваем положение елемента относительно окна браузера
-    contactImg.classList.add("contact-img-active"); // добавляем класс для появления елемента
-  }
-  let contactForm = document.querySelector(".forma"); // получаем  елемент в переменную
-  if (contactForm.offsetTop - 450 < window.pageYOffset) {
-    // сравниваем положение елемента относительно окна браузера
-    contactForm.classList.add("forma-active"); // добавляем класс для появления елемента
-  }
+  //   let contactImg = document.querySelector(".contact-img"); // получаем  елемент в переменную
+  //   if (contactImg.offsetTop - 450 < window.pageYOffset) {
+  //     // сравниваем положение елемента относительно окна браузера
+  //     contactImg.classList.add("contact-img-active"); // добавляем класс для появления елемента
+  //   }
+  //   let contactForm = document.querySelector(".forma"); // получаем  елемент в переменную
+  //   if (contactForm.offsetTop - 450 < window.pageYOffset) {
+  //     // сравниваем положение елемента относительно окна браузера
+  //     contactForm.classList.add("forma-active"); // добавляем класс для появления елемента
+  //   }
   let mapFlex = document.querySelector(".map-flex"); // получаем  елемент в переменную
   if (mapFlex.offsetTop - 450 < window.pageYOffset) {
     // сравниваем положение елемента относительно окна браузера

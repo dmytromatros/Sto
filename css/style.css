@@ -434,6 +434,10 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: 350px;
@@ -614,10 +618,6 @@ h6 {
   padding: 0 150px;
 }
 
-.contact-slide .contact-left-img .contact-img {
-  margin-left: -700px;
-}
-
 .contact-slide .contact-left-img .contact-img-active {
   -webkit-transition: 1s;
   transition: 1s;
@@ -642,7 +642,6 @@ h6 {
   height: 450px;
   background-color: rgba(255, 255, 255, 0.5);
   float: right;
-  margin-right: -750px;
 }
 
 .contact-slide .forma span {
